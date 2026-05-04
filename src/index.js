@@ -28,6 +28,6 @@ app.get('/clientes', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Backend escuchando en puerto ${PORT}`);
 });
